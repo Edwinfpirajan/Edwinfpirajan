@@ -1,10 +1,10 @@
-# Edwin Arévalo
+# Edwin Fernando Pirajan Arévalo
 
-I'm Edwin Arévalo, a software developer with a focus on backend development. I have advanced expertise in JavaScript and Go, with a strong background in both SQL and NoSQL databases.
+I'm Edwin Fernando Pirajan Arévalo, a software developer with a focus on backend development. I have advanced expertise in JavaScript and Go, with a strong background in both SQL and NoSQL databases.
 
 ## Main Languages and Technologies
 
-### Advanced Proficiency
+### Advanced Proficiency 
 - JavaScript
 - Go
 - SQL
