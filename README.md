@@ -1,80 +1,110 @@
-# Edwin Fernando Pirajan Arévalo
+# 👨‍💻 Edwin Fernando Pirajan Arévalo
 
-I'm Edwin Fernando Pirajan Arévalo, a software developer with a focus on backend development. I have advanced expertise in JavaScript and Go, with a strong background in both SQL and NoSQL databases.
+Soy un **desarrollador backend** especializado en arquitecturas escalables, microservicios, automatización y soluciones con Inteligencia Artificial. Tengo dominio avanzado en **Go**, **Node.js**, **JavaScript**, bases de datos SQL y frameworks modernos. También desarrollo agentes IA con **LangChain** y pipelines inteligentes para aplicaciones reales.
 
-## Main Languages and Technologies
+---
 
-### Advanced Proficiency 
-- JavaScript
-- Go
-- SQL
+## 🧠 Lenguajes y Tecnologías
 
-### Intermediate Proficiency
-- NoSQL
-- PHP
-- Python
+### 🔥 Avanzado
+- Go  
+- Node.js  
+- JavaScript  
+- SQL  
+- PHP (Laravel)  
+- Python (FastAPI)  
+- LangChain (Agentes, chains, embeddings, RAG)
 
-### Basic Proficiency
-- Java
-- .NET
+### ⚙️ Intermedio
+- MongoDB  
+- NoSQL (Redis, RavenDB)  
+- WebSockets / Tiempo real  
+- Chrome DevTools Protocol (automatización de navegador)  
 
-## Databases
+### 📘 Básico – Intermedio
+- Java  
+- .NET  
+- Bash / PowerShell
 
-- PostgreSQL
-- MongoDB
-- MySQL
-- RavenDB
-- SQL Server
+---
 
-## Frameworks
+## 🗄️ Bases de Datos
+- PostgreSQL  
+- MySQL  
+- SQL Server  
+- MongoDB  
+- RavenDB  
 
-- [Echo](https://echo.labstack.com/)
-- [Express](https://expressjs.com/)
-- [NestJS](https://nestjs.com/)
-- [Astro](https://astro.build/)
-- [Next.js](https://nextjs.org/)
-- [Angular](https://angular.io/)
+---
 
-## Cloud Services
+## 🧩 Frameworks y Librerías
+### Backend
+- **Go:** Echo, Fiber  
+- **Node.js:** Express, NestJS  
+- **Python:** FastAPI  
+- **PHP:** Laravel  
 
-- Oracle Cloud
-- AWS
-- Railway
+### Frontend
+- Astro  
+- Next.js  
+- Angular  
 
-## Tools and Others
+### IA & Automatización
+- LangChain  
+- OpenAI / Groq  
+- Whisper / Piper  
+- Integraciones LLM + RAG  
+- Chrome DevTools Protocol  
+- WebSockets  
 
-- Docker
-- Git
-- Nginx
-- Apache
+---
 
-## Agile Methodologies
+## ☁️ Servicios Cloud
+- Oracle Cloud  
+- AWS  
+- Railway  
 
-- Scrum
-- Jira
-- ClickUp
+---
 
-## Projects
+## 🛠️ Herramientas
+- Docker / Docker Compose  
+- Git / GitHub  
+- Nginx / Apache  
+- CI/CD  
+- Logs estructurados y monitoreo  
 
-Please check my GitHub for a list of updated projects.
+---
 
-## GitHub Stats
+## 🚀 Metodologías Ágiles
+- Scrum  
+- Jira  
+- ClickUp  
+
+---
+
+## 📂 Proyectos
+Encuentra mis proyectos recientes: microservicios en Go/Node.js, automatización, extensiones de navegador, agentes IA, dashboards y pipelines backend–frontend.
+
+➡️ **https://github.com/efpa1998**
+
+---
+
+## 📊 GitHub Stats
 
 <a href="https://github.com/efpa1998">
   <img src="https://github-readme-stats.vercel.app/api?username=efpa1998&show_icons=true&theme=dark" />
 </a>
 
-<p>
 <a href="https://github.com/efpa1998">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=efpa1998&theme=dark" alt="efpa1998's streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=efpa1998&theme=dark" />
 </a>
-</p>
 
 <a href="https://github.com/efpa1998">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=efpa1998&layout=compact&theme=dark" />
 </a>
 
-## Contact
+---
 
-- [LinkedIn](https://www.linkedin.com/in/edwin-arevalo-119b1215b/)
-- [Mail](mailto:efpa1998@hotmail.com)
+## 📬 Contacto
+- **LinkedIn:** https://www.linkedin.com/in/edwin-arevalo-119b1215b/  
+- **Email:** efpa1998@hotmail.com  
