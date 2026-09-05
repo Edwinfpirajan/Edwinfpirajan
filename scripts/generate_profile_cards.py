@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Generate profile SVGs from public GitHub REST metadata, using only stdlib.
+"""Generate the public activity card and a curated language-stack card.
 
-No private repository content is requested. Language shares count repositories
-by their primary language (excluding forks), not lines of code or expertise.
+Only activity statistics are calculated from public GitHub REST metadata.
+The language card is an explicit personal selection, not a repository ranking
+or a measure of expertise. No private repository content is requested.
 GITHUB_TOKEN is optional and only raises the API rate limit for these GETs.
 """
 from __future__ import annotations
 
-import collections
 import datetime as dt
 import html
 import json
@@ -17,6 +17,17 @@ import re
 import sys
 import urllib.error
 import urllib.request
+
+# Deliberate profile selection, independent of repository visibility and counts.
+# Do not attach inferred percentages or proficiency scores to these languages.
+FEATURED_LANGUAGES: tuple[tuple[str, str], ...] = (
+    ("Go", "#00ADD8"),
+    ("Rust", "#DEA584"),
+    ("TypeScript", "#3178C6"),
+    ("Python", "#3776AB"),
+    ("PHP", "#9296CE"),
+    ("JavaScript", "#F7DF1E"),
+)
 
 
 def api_get(path: str) -> object:
@@ -58,6 +69,20 @@ def card(width: int, title: str, body: str) -> str:
             f'<g font-family="Arial, Helvetica, sans-serif">{body}</g></svg>\n')
 
 
+def render_language_card() -> str:
+    """Render six equally sized labels; positions and colors encode no metrics."""
+    body = text(22, 29, "Lenguajes con los que trabajo", 17, "#C4B5FD", font_weight="700")
+    body += text(22, 49, "Stack de desarrollo · selección personal", 10, "#8B98AA")
+    for index, (language, color) in enumerate(FEATURED_LANGUAGES):
+        x = 22 + (index % 2) * 162
+        y = 68 + (index // 2) * 41
+        body += f'<rect x="{x}" y="{y}" width="144" height="34" rx="8" fill="#131A24" stroke="#263040"/>'
+        body += f'<circle cx="{x+15}" cy="{y+17}" r="4" fill="{color}"/>'
+        body += text(x + 28, y + 22, language, 12, "#E6EDF3", font_weight="600")
+    body += text(22, 207, "Backend · escritorio · aplicaciones web", 10, "#8B98AA")
+    return card(350, "Stack de desarrollo: Go, Rust, TypeScript, Python, PHP y JavaScript. Selección personal, no estadísticas de repositorios.", body)
+
+
 def render_cards(username: str, profile: dict, repositories: list[dict]) -> dict[str, str]:
     own = [repo for repo in repositories if repo.get("fork") is False]
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
@@ -75,31 +100,8 @@ def render_cards(username: str, profile: dict, repositories: list[dict]) -> dict
     body += text(24, 207, f"GitHub REST · Actualizado {stamp} UTC", 10, "#8B98AA")
     stats = card(480, f"Estadísticas públicas de {username}", body)
 
-    counts = collections.Counter(repo["language"] for repo in own if isinstance(repo.get("language"), str) and repo["language"])
-    ranked = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
-    items = ranked if len(ranked) <= 6 else ranked[:5] + [("Otros", sum(count for _, count in ranked[5:]))]
-    total = sum(counts.values())
-    palette = {"TypeScript": "#3178C6", "JavaScript": "#F7DF1E", "Python": "#3776AB", "Go": "#00ADD8", "Rust": "#DEA584", "HTML": "#E34F26", "CSS": "#A78BFA", "PHP": "#777BB4", "Vue": "#4FC08D", "C#": "#B388FF", "Java": "#ED8B00", "Otros": "#64748B"}
-    body = text(22, 29, "Lenguajes en mis repos", 17, "#C4B5FD", font_weight="700")
-    body += text(22, 49, "Lenguaje principal por repositorio · sin forks", 10, "#8B98AA")
-    if total:
-        offset = 22.0
-        for language, count in items:
-            width = 306 * count / total
-            color = palette.get(language, "#38BDF8")
-            body += f'<rect x="{offset:.3f}" y="66" width="{width:.3f}" height="8" fill="{color}"/>'
-            offset += width
-        for index, (language, count) in enumerate(items):
-            x, y = 22 + (index % 2) * 162, 105 + (index // 2) * 34
-            color = palette.get(language, "#38BDF8")
-            body += f'<circle cx="{x+4}" cy="{y-4}" r="4" fill="{color}"/>'
-            label = language if len(language) <= 13 else language[:12] + "…"
-            body += text(x + 15, y, label, 11)
-            body += text(x + 143, y, f"{count / total:.0%}", 10, "#A8B2C3", text_anchor="end")
-    else:
-        body += text(22, 112, "Sin lenguajes públicos detectados.", 12)
-    body += text(22, 207, "Proporción por repositorio, no por líneas.", 10, "#8B98AA")
-    return {"stats.svg": stats, "top-langs.svg": card(350, f"Lenguajes principales de {total} repositorios públicos sin forks de {username}", body)}
+    # Keep the existing filename so the README and workflow stay compatible.
+    return {"stats.svg": stats, "top-langs.svg": render_language_card()}
 
 
 def main() -> None:
@@ -115,7 +117,7 @@ def main() -> None:
         temporary = output / f".{name}.tmp"
         temporary.write_text(svg, encoding="utf-8")
         temporary.replace(output / name)
-    print(f"Generated {len(cards)} cards from public metadata for {username}.")
+    print(f"Generated public activity and curated language-stack cards for {username}.")
 
 
 if __name__ == "__main__":
