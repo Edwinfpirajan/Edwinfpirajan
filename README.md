@@ -94,11 +94,11 @@ Trabajo principalmente con **Go, TypeScript y Python**, y desarrollo herramienta
 
 <p align="center">
   <img width="56%" src="./profile/stats.svg" alt="Estadísticas públicas de GitHub de Edwinfpirajan" />
-  <img width="41%" src="./profile/stack.svg" alt="Mi stack de desarrollo: Go, Rust, TypeScript, Python, PHP y JavaScript" />
+  <img width="41%" src="./profile/stack.svg" alt="Porcentajes de código en Go, Rust, TypeScript, Python, PHP y JavaScript, entre estos seis lenguajes" />
 </p>
 
 <p align="center">
-  <sub>La actividad refleja datos públicos. El stack es una selección de las tecnologías con las que trabajo, también en proyectos privados.</sub>
+  <sub>La actividad refleja datos públicos. El stack calcula la proporción de código (bytes) entre los seis lenguajes mostrados: repositorios propios sin forks, en sus ramas predeterminadas, incluidos los privados accesibles. CSS y otros lenguajes quedan fuera del total. No mide dominio técnico ni autoría personal.</sub>
 </p>
 
 <details>
