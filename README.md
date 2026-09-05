@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile/hero.svg" width="100%" alt="Edwin Piraján — Arquitectura sólida. IA útil. Productos reales." />
+  <img src="./profile/hero.svg" width="100%" alt="Edwin Pirajan — Arquitectura sólida. IA útil. Productos reales." />
 </p>
 
 <p align="center">
