@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Edwin Piraján — Arquitectura de software e inteligencia artificial</title>
+  <title id="title">Edwin Pirajan — Arquitectura de software e inteligencia artificial</title>
   <desc id="desc">Desarrollador de software de Colombia. Backend, agentes de IA y herramientas creativas. Construyendo AgentIQ y Archimedes Studio.</desc>
   <defs>
     <linearGradient id="accent" x1="818" y1="60" x2="1160" y2="300" gradientUnits="userSpaceOnUse">
@@ -16,7 +16,7 @@
   <circle cx="60" cy="38" r="5" fill="#A78BFA"/>
   <text x="78" y="43" fill="#A8B2C3" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">EDWINFPIRAJAN</text>
   <text x="1148" y="43" fill="#A8B2C3" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2" text-anchor="end">COLOMBIA / SOFTWARE &amp; IA</text>
-  <text x="51" y="161" fill="#F0F3FA" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-3">Edwin Piraján<tspan fill="#A78BFA">.</tspan></text>
+  <text x="51" y="161" fill="#F0F3FA" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-3">Edwin Pirajan<tspan fill="#A78BFA">.</tspan></text>
   <text x="55" y="207" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="23">Arquitectura sólida. IA útil. Productos reales.</text>
   <text x="55" y="240" fill="#8B98AA" font-family="Arial, Helvetica, sans-serif" font-size="16">Del backend a la experiencia de usuario.</text>
   <rect x="824" y="88" width="324" height="166" rx="12" fill="url(#panel)" stroke="#36354D"/>
