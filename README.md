@@ -90,16 +90,27 @@ Trabajo principalmente con **Go, TypeScript y Python**, y desarrollo herramienta
   <p><strong>Datos e infraestructura:</strong> MongoDB, SQL Server, Nginx y AWS.</p>
 </details>
 
-## Mi actividad en GitHub
+## Mi actividad y stack
 
 <p align="center">
   <img width="56%" src="./profile/stats.svg" alt="Estadísticas públicas de GitHub de Edwinfpirajan" />
-  <img width="41%" src="./profile/top-langs.svg" alt="Lenguajes detectados en los repositorios públicos de Edwinfpirajan" />
+  <img width="41%" src="./profile/stack.svg" alt="Mi stack de desarrollo: Go, Rust, TypeScript, Python, PHP y JavaScript" />
 </p>
 
 <p align="center">
-  <sub>Estas tarjetas reflejan los datos públicos disponibles; no representan toda mi experiencia ni mi trabajo en repositorios privados.</sub>
+  <sub>La actividad refleja datos públicos. El stack es una selección de las tecnologías con las que trabajo, también en proyectos privados.</sub>
 </p>
+
+<details>
+  <summary>Ver estadísticas de lenguajes públicos</summary>
+  <br />
+  <p align="center">
+    <img width="350" src="./profile/top-langs.svg" alt="Distribución del lenguaje principal en los repositorios públicos sin forks de Edwinfpirajan" />
+  </p>
+  <p align="center">
+    <sub>Porcentaje de repositorios públicos según su lenguaje principal, sin forks. No mide dominio técnico ni incluye repositorios privados.</sub>
+  </p>
+</details>
 
 ## 🐍 Mis contribuciones, versión Snake
 
