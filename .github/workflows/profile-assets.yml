@@ -9,6 +9,8 @@ on:
     paths:
       - .github/workflows/profile-assets.yml
       - scripts/generate_profile_cards.py
+      - scripts/generate_stack_percentages.py
+      - scripts/test_stack_percentages.py
 
 permissions:
   contents: read
@@ -30,13 +32,25 @@ jobs:
         with:
           ref: main
 
-      # Solo metadatos publicos. Sin PAT personal, servicios de tarjetas ni paquetes pip.
-      # Si falla la consulta, no se sustituyen las tarjetas guardadas por imagenes de error.
+      - name: Probar porcentajes y privacidad sin llamadas de red
+        run: python3 -m unittest discover -s scripts -p 'test_stack_percentages.py' -v
+
+      # Las tarjetas originales conservan su alcance exclusivamente publico.
       - name: Generar estadisticas y lenguajes publicos
         env:
           PROFILE_USERNAME: Edwinfpirajan
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/generate_profile_cards.py
+
+      # Lee solo metadatos de lenguajes; publica porcentajes agregados de 6 lenguajes.
+      # El PAT no se usa para git ni se imprime. Sin el secret, indica solo publicos.
+      # Un error de permisos o de red conserva la tarjeta previamente publicada.
+      - name: Generar porcentajes reales del stack
+        env:
+          PROFILE_USERNAME: Edwinfpirajan
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_READ_TOKEN: ${{ secrets.GH_PRIVATE_CONTRIBUTIONS_TOKEN }}
+        run: python3 scripts/generate_stack_percentages.py
 
       - name: Generar animacion de contribuciones
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
@@ -52,7 +66,7 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           from xml.etree import ElementTree
-          for name in ('stats.svg', 'top-langs.svg', 'contribution-snake.svg', 'contribution-snake-dark.svg'):
+          for name in ('stats.svg', 'top-langs.svg', 'stack.svg', 'contribution-snake.svg', 'contribution-snake-dark.svg'):
               path = Path('profile') / name
               root = ElementTree.parse(path).getroot()
               assert root.tag == '{http://www.w3.org/2000/svg}svg', f'SVG no valido: {path}'
@@ -65,11 +79,11 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- profile/stats.svg profile/top-langs.svg profile/contribution-snake.svg profile/contribution-snake-dark.svg
+          git add -- profile/stats.svg profile/top-langs.svg profile/stack.svg profile/contribution-snake.svg profile/contribution-snake-dark.svg
           if git diff --cached --quiet; then
             echo "No hay cambios en las imagenes."
             exit 0
           fi
-          git commit -m "chore(profile): refresh public GitHub cards [skip ci]"
+          git commit -m "chore(profile): refresh GitHub cards and aggregate language shares [skip ci]"
           git pull --rebase origin main
           git push origin HEAD:main
