@@ -1,119 +1,126 @@
-# ¡Hola! Soy Edwin Fernando Pirajan Arévalo 👋
-
-Backend Software Developer & AI Engineer con **5 años de experiencia** diseñando e implementando arquitecturas escalables, sistemas conversacionales distribuidos, automatización web avanzada e integraciones de Inteligencia Artificial en entornos de producción.
-
-Me especializo en el ecosistema de **Go**, **Node.js (TypeScript)** y **Python**, con fuerte foco en la creación de agentes autónomos inteligentes (LangChain, multi-LLM, RAG) y en la automatización de navegadores (Chrome DevTools Protocol).
-
----
-
-## 🚀 Proyectos Destacados
-
-### 🤖 [AgentIQ](https://agentiq.com.co/)
-**Plataforma B2B Omnicanal (WhatsApp, Web, SMS & Voz) con IA**
-- Plataforma que unifica agentes humanos y de IA en una sola bandeja de entrada, procesando **más de 50,000 conversaciones diarias**.
-- Incluye el constructor conversacional no-code **Archimedes** para diseñar agentes, CRMs y paneles de métricas con tool-calling de última generación y soporte multi-LLM (OpenAI, Claude, Groq, DeepSeek).
-- **Tech Stack:** Go, Node.js, WebSockets, LangChain, Telefonía por Voz de IA, Astro (Frontend).
-
-### ✍️ [LinguaForge](https://linguaforgeapp.com/)
-**Plataforma de Aprendizaje de Idiomas con IA**
-- Plataforma para aprender inglés, portugués y alemán mediante lecciones en video interactivas, cuestionarios dinámicos, vocabulario, ejercicios gramaticales y práctica conversacional.
-- Desarrollo completo Full Stack utilizando generación automatizada de contenidos asistida por IA.
-- **Tech Stack:** Next.js, Node.js, APIs de Procesamiento de Lenguaje y Audio.
-
----
-
-## 🛠️ Tecnologías y Herramientas
-
-### Lenguajes de Programación
-<p align="left">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+<p align="center">
+  <img src="./profile/hero.svg" width="100%" alt="Edwin Piraján — Arquitectura sólida. IA útil. Productos reales." />
 </p>
 
-### Frameworks & Librerías (Backend)
-<p align="left">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+<p align="center">
+  <a href="https://github.com/Edwinfpirajan?tab=followers"><img src="https://img.shields.io/github/followers/Edwinfpirajan?style=for-the-badge&logo=github&label=Seguir&color=7C3AED" alt="Seguir a Edwin en GitHub" /></a>
+  <a href="https://agentiq.com.co/"><img src="https://img.shields.io/badge/AgentIQ-IA_aplicada-0EA5E9?style=for-the-badge" alt="Conocer AgentIQ" /></a>
+  <a href="https://www.linkedin.com/in/edwin-arevalo-119b1215b/"><img src="https://img.shields.io/badge/LinkedIn-Conectemos-0A66C2?style=for-the-badge" alt="Perfil profesional en LinkedIn" /></a>
+  <a href="mailto:efpa1998@hotmail.com"><img src="https://img.shields.io/badge/Email-Hablemos-6D28D9?style=for-the-badge" alt="Enviar un correo a Edwin" /></a>
 </p>
 
-### AI & Automatización
-<p align="left">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3A?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSockets" />
-  <img src="https://img.shields.io/badge/Chrome_DevTools-24292e?style=for-the-badge&logo=google-chrome&logoColor=white" alt="CDP" />
+## Sobre mí
+
+Soy **Edwin Fernando Piraján Arévalo**, desarrollador y arquitecto de software en Colombia. Diseño backends, sistemas conversacionales y productos con inteligencia artificial, desde la arquitectura hasta la experiencia de usuario.
+
+Trabajo principalmente con **Go, TypeScript y Python**, y desarrollo herramientas de escritorio con **Rust**. Me interesan los agentes que usan herramientas, la automatización de procesos y el software que hace accesible una tecnología compleja sin complicarle la vida al usuario.
+
+## Lo que construyo
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>🤖 Agentes de IA</h3>
+      <p>Sistemas conversacionales, integración de modelos, RAG y agentes con herramientas conectadas a procesos reales.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🎬 Herramientas creativas</h3>
+      <p>Edición de video asistida por IA, aplicaciones de escritorio y experiencias centradas en el control del usuario.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>⚙️ Backend y arquitectura</h3>
+      <p>APIs, plataformas multi-tenant, integraciones en tiempo real y automatización con foco en seguridad y mantenibilidad.</p>
+    </td>
+  </tr>
+</table>
+
+## Proyectos destacados
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://agentiq.com.co/">AgentIQ</a></h3>
+      <p>Plataforma de agentes de IA y comunicación omnicanal que conecta conversaciones, automatización y herramientas de negocio.</p>
+      <p><code>Go</code> <code>TypeScript</code> <code>Python</code> <code>IA conversacional</code></p>
+      <a href="https://agentiq.com.co/">Conocer el proyecto →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎬 Archimedes Studio</h3>
+      <p>Editor de video de escritorio asistido por IA, con núcleo Rust y enfoque local-first: una experiencia potente y sencilla para crear.</p>
+      <p><code>Rust</code> <code>Tauri</code> <code>Vue</code> <code>TypeScript</code></p>
+      <sub>En desarrollo · Alpha · Repositorio privado</sub>
+    </td>
+  </tr>
+</table>
+
+**✍️ [LinguaForge](https://linguaforgeapp.com/)** — Aprendizaje de idiomas con lecciones interactivas y contenidos asistidos por IA. Construido con Next.js y Node.js.
+
+## Tecnologías
+
+**Lenguajes y backend**
+
+<p>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
 </p>
 
-### Bases de Datos
-<p align="left">
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+**Interfaces, datos e infraestructura**
+
+<p>
+  <img src="https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
+  <img src="https://img.shields.io/badge/Next.js-18181B?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=black" alt="Tauri" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 </p>
 
-### Infraestructura, Herramientas & Frontend
-<p align="left">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+<details>
+  <summary>Más herramientas con las que trabajo</summary>
+  <br />
+  <p><strong>Backend:</strong> FastAPI, NestJS, Express y Laravel.</p>
+  <p><strong>IA y automatización:</strong> LangChain, RAG, tool-calling, integración de modelos, WebSockets y Chrome DevTools Protocol.</p>
+  <p><strong>Datos e infraestructura:</strong> MongoDB, SQL Server, Nginx y AWS.</p>
+</details>
+
+## Mi actividad en GitHub
+
+<p align="center">
+  <img width="56%" src="./profile/stats.svg" alt="Estadísticas públicas de GitHub de Edwinfpirajan" />
+  <img width="41%" src="./profile/top-langs.svg" alt="Lenguajes detectados en los repositorios públicos de Edwinfpirajan" />
 </p>
+
+<p align="center">
+  <sub>Estas tarjetas reflejan los datos públicos disponibles; no representan toda mi experiencia ni mi trabajo en repositorios privados.</sub>
+</p>
+
+<details>
+  <summary>🐍 Ver la animación de mis contribuciones</summary>
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/contribution-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/contribution-snake.svg" />
+    <img width="100%" src="./profile/contribution-snake.svg" alt="Animación de la serpiente recorriendo las contribuciones de Edwinfpirajan" />
+  </picture>
+</details>
 
 ---
 
-## 💼 Experiencia Relevante
+<p align="center">
+  <strong>¿Hablamos de software, IA o una colaboración?</strong><br />
+  <a href="mailto:efpa1998@hotmail.com">Email</a> ·
+  <a href="https://www.linkedin.com/in/edwin-arevalo-119b1215b/">LinkedIn</a> ·
+  <a href="https://agentiq.com.co/">AgentIQ</a> ·
+  <a href="https://youtube.com/@ProgramaThor">YouTube</a>
+</p>
 
-- **Almaexperience** (Feb 2024 — Presente) | *AI Engineer & Backend Developer*
-  - Diseño y desarrollo de agentes de IA con tool-calling multi-LLM (Claude, OpenAI, Groq).
-  - Desarrollo de CRMs integrados en la nube con Genesys Cloud (Laravel, Node.js, Go).
-- **Smart Training Society** (May 2023 — Dic 2023) | *Full Stack Developer*
-  - Desarrollo de aplicaciones internas (React, Go, Node.js, .NET, Docker).
-  - Administración de servidores Oracle en entornos Linux (Red Hat, Ubuntu) y DBs (SQL Server, Postgres).
-- **Gobierno Federal de México (PRD)** (Mar 2023 — May 2023) | *Backend Developer*
-  - Desarrollo de la aplicación electoral del gobierno (NestJS, Next.js, RavenDB).
-- **Distrifabrica Ramirez S.A.S** (Ago 2022 — May 2023) | *Software Developer*
-  - Aplicaciones internas (React, Go, PHP, Node.js, Docker) y desarrollo de módulos Odoo.
-
----
-
-## 🎓 Educación
-
-- **Tecnología en Desarrollo de Software y Arquitectura**
-  *Universidad Distrital Francisco José de Caldas (2019 — 2021)*
-- **Programación de Software y Bases de Datos**
-  *SENA (2022 — Presente)*
-
----
-
-## 📊 Estadísticas de GitHub
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=efpa1998&show_icons=true&theme=dark&bg_color=09090b&title_color=fafafa&text_color=a1a1aa&border_color=27272a" alt="Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=efpa1998&layout=compact&theme=dark&bg_color=09090b&title_color=fafafa&text_color=a1a1aa&border_color=27272a" alt="Top Languages" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=efpa1998&theme=dark&background=09090b&ring=fafafa&fire=fafafa&currStreakNum=fafafa&sideNums=a1a1aa&sideLabels=a1a1aa&dates=a1a1aa" alt="Streak Stats" />
-</div>
-
----
-
-## 📬 Contacto
-
-- **LinkedIn:** [Edwin Fernando Pirajan Arévalo](https://www.linkedin.com/in/edwin-arevalo-119b1215b/)
-- **Portafolio:** [portafolio-edwin.up.railway.app](https://portafolio-edwin.up.railway.app)
-- **YouTube:** [ProgramaThor](https://youtube.com/@ProgramaThor)
-- **Email:** efpa1998@hotmail.com
+<p align="center">
+  <sub>Menos complejidad para el usuario. Más posibilidades para crear.</sub>
+</p>
