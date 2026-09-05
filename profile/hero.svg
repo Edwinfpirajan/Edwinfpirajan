@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Edwin Piraján — Arquitectura de software e inteligencia artificial</title>
+  <desc id="desc">Desarrollador de software de Colombia. Backend, agentes de IA y herramientas creativas. Construyendo AgentIQ y Archimedes Studio.</desc>
+  <defs>
+    <linearGradient id="accent" x1="818" y1="60" x2="1160" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="835" y1="70" x2="1150" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17172B"/>
+      <stop offset="1" stop-color="#101722"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="338" rx="20" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <path d="M52 65H1148M52 274H1148" stroke="#262D38"/>
+  <circle cx="60" cy="38" r="5" fill="#A78BFA"/>
+  <text x="78" y="43" fill="#A8B2C3" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">EDWINFPIRAJAN</text>
+  <text x="1148" y="43" fill="#A8B2C3" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2" text-anchor="end">COLOMBIA / SOFTWARE &amp; IA</text>
+  <text x="51" y="161" fill="#F0F3FA" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-3">Edwin Piraján<tspan fill="#A78BFA">.</tspan></text>
+  <text x="55" y="207" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="23">Arquitectura sólida. IA útil. Productos reales.</text>
+  <text x="55" y="240" fill="#8B98AA" font-family="Arial, Helvetica, sans-serif" font-size="16">Del backend a la experiencia de usuario.</text>
+  <rect x="824" y="88" width="324" height="166" rx="12" fill="url(#panel)" stroke="#36354D"/>
+  <rect x="824" y="107" width="3" height="128" rx="1.5" fill="url(#accent)"/>
+  <text x="850" y="120" fill="#A78BFA" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2.2">CONSTRUYENDO</text>
+  <text x="850" y="156" fill="#F0F3FA" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">AgentIQ</text>
+  <text x="850" y="179" fill="#95A2B7" font-family="Arial, Helvetica, sans-serif" font-size="13">Agentes y automatización</text>
+  <text x="850" y="212" fill="#F0F3FA" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Archimedes Studio</text>
+  <text x="850" y="234" fill="#95A2B7" font-family="Arial, Helvetica, sans-serif" font-size="13">Video e inteligencia artificial</text>
+  <text x="55" y="311" fill="#CCD5E3" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8">BACKEND</text>
+  <text x="158" y="311" fill="#4F5A6D" font-family="Arial, Helvetica, sans-serif" font-size="14">/</text>
+  <text x="183" y="311" fill="#CCD5E3" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8">AGENTES DE IA</text>
+  <text x="336" y="311" fill="#4F5A6D" font-family="Arial, Helvetica, sans-serif" font-size="14">/</text>
+  <text x="361" y="311" fill="#CCD5E3" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8">SISTEMAS CREATIVOS</text>
+  <text x="1148" y="311" fill="#8B98AA" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6" text-anchor="end">DISEÑAR · CONSTRUIR · MEJORAR</text>
+</svg>
