@@ -101,15 +101,19 @@ Trabajo principalmente con **Go, TypeScript y Python**, y desarrollo herramienta
   <sub>Estas tarjetas reflejan los datos públicos disponibles; no representan toda mi experiencia ni mi trabajo en repositorios privados.</sub>
 </p>
 
-<details>
-  <summary>🐍 Ver la animación de mis contribuciones</summary>
-  <br />
+## 🐍 Mis contribuciones, versión Snake
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/contribution-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./profile/contribution-snake.svg" />
-    <img width="100%" src="./profile/contribution-snake.svg" alt="Animación de la serpiente recorriendo las contribuciones de Edwinfpirajan" />
+    <img width="100%" src="./profile/contribution-snake.svg" alt="Culebrita animada comiéndose los cuadritos de mis contribuciones de GitHub" />
   </picture>
-</details>
+</p>
+
+<p align="center">
+  <sub>Mis contribuciones se convierten en el recorrido de la culebrita. Actualización diaria automática.</sub>
+</p>
 
 ---
 
