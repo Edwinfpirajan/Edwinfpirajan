@@ -11,7 +11,7 @@
 
 ## Sobre mí
 
-Soy **Edwin Fernando Piraján Arévalo**, desarrollador y arquitecto de software en Colombia. Diseño backends, sistemas conversacionales y productos con inteligencia artificial, desde la arquitectura hasta la experiencia de usuario.
+Soy **Edwin Fernando Pirajan Arevalo**, desarrollador y arquitecto de software en Colombia. Diseño backends, sistemas conversacionales y productos con inteligencia artificial, desde la arquitectura hasta la experiencia de usuario.
 
 Trabajo principalmente con **Go, TypeScript y Python**, y desarrollo herramientas de escritorio con **Rust**. Me interesan los agentes que usan herramientas, la automatización de procesos y el software que hace accesible una tecnología compleja sin complicarle la vida al usuario.
 
